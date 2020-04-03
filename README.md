@@ -14,4 +14,12 @@ This is fleet management app written for [Frappe Framework] (https://github.com/
 # Prerequisites:
 
 This app require installing ERPNEXT
+<<<<<<< HEAD
 >>>>>>> upstream/master
+=======
+
+#Framework 
+
+Frappe 
+Python
+>>>>>>> fc2a4297b8327cec87304964b56721d130ffb9a3

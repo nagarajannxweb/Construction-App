@@ -130,4 +130,3 @@ app_license = "MIT"
 # exempt linked doctypes from being automatically cancelled
 #
 # auto_cancel_exempted_doctypes = ["Auto Repeat"]
-

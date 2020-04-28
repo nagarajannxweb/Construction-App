@@ -1,6 +1,8 @@
 // Copyright (c) 2020, nxweb and contributors
 // For license information, please see license.txt
 
+{% include 'erpnext/selling/sales_common.js' %}
+
 frappe.ui.form.on("Rate Analysis",{
  refresh:function(frm){
     frm.set_query("item_of_work", function(doc){
@@ -26,3 +28,5 @@ frappe.ui.form.on("Rate Analysis Detail",{
     child.amount = child.qty * child.rate
   }
 });
+
+//cur_frm.add_fetch("taxes_and_charges","taxes","currency")

@@ -7,8 +7,8 @@ def get_data():
 		{
 			"module_name": "Construction App",
 			"color": "grey",
-			"icon": "octicon octicon-file-directory",
+			"icon": "octicon octicon-home",
 			"type": "module",
-			"label": _("Construction App")
+			"label": _("Construction")
 		}
 	]

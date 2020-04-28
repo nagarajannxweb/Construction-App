@@ -199,11 +199,13 @@
    "collapsible": 1,
    "fieldname": "sec_tax_breakup",
    "fieldtype": "Section Break",
+   "hidden": 1,
    "label": "Tax Breakup"
   },
   {
    "fieldname": "section_break_26",
-   "fieldtype": "Section Break"
+   "fieldtype": "Section Break",
+   "hidden": 1
   },
   {
    "fieldname": "base_total_taxes_and_charges",
@@ -217,12 +219,14 @@
    "collapsible_depends_on": "discount_amount",
    "fieldname": "additional_discount_and_coupon_code_section",
    "fieldtype": "Section Break",
+   "hidden": 1,
    "label": "Additional Discount and Coupon Code"
   },
   {
    "collapsible": 1,
    "fieldname": "section_break_29",
    "fieldtype": "Section Break",
+   "hidden": 1,
    "label": "Currency"
   },
   {
@@ -251,7 +255,7 @@
  ],
  "is_submittable": 1,
  "links": [],
- "modified": "2020-04-08 11:09:32.819176",
+ "modified": "2020-04-28 10:40:42.961087",
  "modified_by": "Administrator",
  "module": "Construction App",
  "name": "Rate Analysis",

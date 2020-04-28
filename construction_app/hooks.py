@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 from . import __version__ as app_version
 
 app_name = "construction_app"
-app_title = "Construction App"
+app_title = "Construction"
 app_publisher = "nxweb"
 app_description = "nxweb construction app"
 app_icon = "octicon octicon-file-directory"
@@ -79,13 +79,11 @@ app_license = "MIT"
 # ---------------
 # Hook on document methods and events
 
-# doc_events = {
-# 	"*": {
-# 		"on_update": "method",
-# 		"on_cancel": "method",
-# 		"on_trash": "method"
-#	}
-# }
+#doc_events = {
+#"*": {
+#    "on_submit":""
+#}
+#}
 
 # Scheduled Tasks
 # ---------------
@@ -130,4 +128,3 @@ app_license = "MIT"
 # exempt linked doctypes from being automatically cancelled
 #
 # auto_cancel_exempted_doctypes = ["Auto Repeat"]
-

@@ -11,6 +11,8 @@ from erpnext.controllers.taxes_and_totals import calculate_taxes_and_totals
 class RateAnalysis(Document):
 	def validate(self):
 		self.calculate_net_total()
+
+	def before_save(self):
 		self.calculate_taxes_and_charges()
 
 	def calculate_net_total(self):
